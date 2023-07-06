@@ -1,7 +1,6 @@
 package com.example.myproject
 
-class working(){
-    var name=""
+class working(val name : String){
     fun sleep(){
         println("$name a lazy bum!")
     }
@@ -11,11 +10,9 @@ class working(){
 
 }
 fun main(){
-    var u="Thura"
-    var abc=24.5f;
-    val code1 = working()
-
-    code1.name="Thura is"
+    val ubh="Thura"
+    var abc=24.5f
+    val code1 = working("Thura is")
     code1.sleep()
     println(abc.toInt())
 }
