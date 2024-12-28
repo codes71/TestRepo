@@ -9,6 +9,7 @@
         android:id="@+id/ProfileFrag"
         android:layout_width="182dp"
         android:layout_height="53dp"
+        android:layout_marginTop="300dp"
         android:text="Profile Fragment" />
 
 
