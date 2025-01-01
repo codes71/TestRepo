@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/reg_title"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/noto_san_myanmar_bold"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/first_name_et"
+        android:hint="@string/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/noto_myanmar_regular"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/email_et"
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_myanmar_regular"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/password_et"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_myanmar_regular"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/reg_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:fontFamily="@font/noto_myanmar_regular"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

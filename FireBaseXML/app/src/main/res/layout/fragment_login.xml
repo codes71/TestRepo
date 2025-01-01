@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFrag"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#d3d3d3"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title_loginPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_welcome"
+            android:textSize="30sp"
+            android:letterSpacing=".09"
+            android:textColor="@color/black"
+            android:fontFamily="@font/noto_san_myanmar_bold"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp" />
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/gray"
+        android:inputType="textPassword"
+        android:layout_marginTop="25sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/loginForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_gravity="end"
+        android:layout_marginTop="16sp"
+        />
+
+    <Button
+        android:id="@+id/button_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttongray"
+        android:fontFamily="@font/noto_myanmar_regular"
+        android:padding="10sp"
+        android:text="@string/login"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:layout_marginTop="16sp"
+        android:layout_marginStart="4sp"
+        android:layout_marginEnd="4sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="20sp"
+        android:textColor="@color/lightgray"
+        android:layout_gravity="center"
+        android:layout_marginTop="16sp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+
+       <Button
+           android:id="@+id/button_google_login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="@drawable/buttongoogle"
+           android:fontFamily="@font/noto_myanmar_regular"
+           android:text="@string/loginWithGoogle"
+           android:textColor="@color/white"
+           android:textSize="15sp"
+           android:textStyle="bold"
+           android:padding="10sp"
+           android:layout_marginStart="8dp"/>
+
+        <Button
+            android:id="@+id/button_login_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttonfacebook"
+            android:fontFamily="@font/noto_myanmar_regular"
+            android:text="@string/loginWithFacebook"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="10sp"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/button_signup"
+        android:layout_marginEnd="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_prompt"
+        android:textSize="14sp"
+        android:textColor="@color/lightgray"
+        android:fontFamily="@font/noto_myanmar_regular"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="end"
+        />
+
+
+
+
+</LinearLayout>
