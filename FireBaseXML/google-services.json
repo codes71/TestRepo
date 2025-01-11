@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "975968902390",
+    "project_id": "androidxmlrealtimedb",
+    "storage_bucket": "androidxmlrealtimedb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975968902390:android:dc9d36973e4371ccfd60d7",
+        "android_client_info": {
+          "package_name": "com.example.firebasexml"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3gZEqlMsO8lwA5v-hsQzbCy84zB4oyhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

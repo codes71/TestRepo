@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="reg_title">မင်္ဂလာပါ အကောင့်ဖွင့်ရန်အောက်ပါဖောင်ကိုဖြည့်ပါ </string>
+    <string name="reg_title">Fill the form to Register </string>
+    <string name="default_client_id">1074632523979-ojbsg46p9v6bi3q16grvj183gu4m42gp.apps.googleusercontent.com</string>
+    <string name="app_name">Firebase Practise</string>
     <string name="Login_title">Login</string>
     <string name="fullName">Name </string>
     <string name="email">Email</string>
@@ -12,15 +14,11 @@
     <string name="dont_have_account">I don\'t have an account</string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_up_prompt">Don\'t have an account, Sign Up?</string>
-    <color name="backgroundColor">#F5F5F5</color>
-    <color name="buttonColor">#6200EE</color>
-    <color name="white">#FFFFFF</color>
-    <color name="linkColor">#3F51B5</color>
-    <color name="gray">#808080</color>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="register">အကောင်ဖွင့်ပါ </string>
-    <string name="login_welcome">Login</string>
-    <string name="loginWithGoogle">Google ဖြင့်၀င်ရောက်ရန်  </string>
-    <string name="loginWithFacebook">Facebook ဖြင့်၀င်ရောက်ရန်  </string>
+    <string name="hello_blank_fragment">Welcome</string>
+    <string name="register">Register </string>
+    <string name="LoginBTN">Login? </string>
+    <string name="login_welcome">Login ၀င်ပါ </string>
+    <string name="loginWithGoogle">Google Login</string>
+    <string name="loginWithFacebook">Facebook Login </string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="20sp"
+    android:layout_margin="10sp"
+    app:cardCornerRadius="30sp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/ImageHolder"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardElevation="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_margin="15sp"
+            app:cardCornerRadius="45dp">
+            <ImageView
+                android:id="@+id/actual_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_image"
+                android:src="@drawable/me"
+                android:scaleType="fitXY"
+                />
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/my_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_dp"
+            app:layout_constraintLeft_toRightOf="@id/ImageHolder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:letterSpacing=".05"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

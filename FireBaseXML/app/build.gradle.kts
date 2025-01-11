@@ -37,14 +37,25 @@ android {
 }
 
 dependencies {
-    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+
+    implementation (libs.play.services.auth)
+    implementation(platform(libs.firebase.bom))
 //    implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation("androidx.core:core-ktx:1.13.0")
-    implementation("com.google.firebase:firebase-database-ktx")
+    implementation(libs.androidx.core.ktx.v1130)
+    implementation(libs.firebase.database.ktx)
+    implementation (libs.firebase.auth.ktx)
+}
+dependencies {
+    // ... other dependencies
+
+    implementation ("androidx.credentials:credentials:<latest version>")
+    implementation ("androidx.credentials:credentials-play-services-auth:<latest version>")
+    implementation ("com.google.android.libraries.identity.googleid:googleid:<latest version>")
 }
